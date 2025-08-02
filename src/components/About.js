@@ -14,7 +14,7 @@ function About() {
               src={profileImg}
               alt="Profile"
               className="rounded-circle shadow"
-              style={{ width: '400px', height: '250px', borderRadius: '20px', objectFit: 'cover', overflow: 'hidden' }}
+              style={{ width: '200px', height: '200px', objectFit: 'cover' }}
             />
           </div>
           <div className="col-md-8">
@@ -41,6 +41,7 @@ function About() {
 }
 
 export default About;
+
 
 
 
